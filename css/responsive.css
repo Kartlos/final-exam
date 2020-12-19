@@ -1,0 +1,14 @@
+@media  screen and (max-width: 1080px){
+    .navbar:not(.register){
+        display:none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    
+    .container,
+    .container-inner{
+        padding-left:30px;
+        padding-right:30px;
+    }
+}
