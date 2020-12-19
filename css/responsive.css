@@ -1,5 +1,5 @@
 @media  screen and (max-width: 1080px){
-    .navbar:not(.register){
+    .navbar:not(.sign-in){
         display:none;
     }
     .fa-bars{
@@ -11,4 +11,43 @@
         padding-left:30px;
         padding-right:30px;
     }
+    .header-content-title{
+        font-size: 35px;
+
+    }
+}
+@media (max-width:1025px){
+    .left-block{
+        max-width: 400px;
+        width: 100%;
+    }
+    .right-block{
+        display:flex;
+        align-items: center;
+    }
+    .section-wrapper{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .image-wrapper{
+        display:flex;
+    }
+    .image-1{
+        align-self: center;
+    }
+}
+@media (max-width:890px){
+   .right-block-wrapper{
+       max-width: 350px;
+       width: 100%;
+   }
+   .right-h{
+       font-size: 14px;
+   }
+   .right-p{
+       font-size: 15px;
+   }
+   .right-button{
+       width: 200px;
+   }
 }
